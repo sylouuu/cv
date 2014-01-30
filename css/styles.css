@@ -336,13 +336,13 @@ header a:hover {
 	overflow: hidden;
 }
 
-#main article .content-list .date {
+#main article .content-list .company {
 	float: left;
 	width: 160px;
 	margin: 0 62px 0 0;
 }
 
-#main article .content-list .date strong {
+#main article .content-list .company strong {
 	display: block;
 	font-weight: normal;
 	font-size: 17px;
@@ -350,11 +350,11 @@ header a:hover {
 	font-family: "titilliumtext22l005-webfont";
 }
 
-#main article .content-list .date strong a {
+#main article .content-list .company strong a {
 	color: #00b9e2;
 }
 
-#main article .content-list .date span {
+#main article .content-list .company span {
 	display: block;
 	font-size: 17px;
 	line-height: 21px;
@@ -459,7 +459,7 @@ footer .btn:hover span {
 	header .slide-block,
 	header .social,
 	#main article .section-holder,
-	#main article .content-list .date,
+	#main article .content-list .company,
 	footer .text-remix,
 	footer ul li,
 	footer ul,
@@ -546,7 +546,7 @@ footer .btn:hover span {
 		padding-right: 0;
 	}
 
-	#main article .content-list .date {
+	#main article .content-list .company {
 		margin-right: 0;
 		margin-bottom: 1em;
 	}
