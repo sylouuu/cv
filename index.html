@@ -14,41 +14,9 @@
         <script>
             $(function() {
                 /**
-                * Image
-                */
-                $('.img img').addClass('animated flipInX');
-
-                /**
-                * Job
-                */
-                $('h1 span').addClass('animated fadeInRightBig');
-
-                /**
                 * Social hover
                 */
                 $('.social a').on('mouseover', function() {
-                    /**
-                    * Effect to use
-                    */
-                    var effect = 'pulse';
-
-                    /**
-                    * Animating
-                    */
-                    $(this)
-                        .addClass('animated '+ effect)
-                        .on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-                            /**
-                            * Animation ended
-                            */
-                            $(this).removeClass('animated '+ effect);
-                        });
-                });
-
-                /**
-                * Heading hover
-                */
-                $('h2').on('mouseover', function() {
                     /**
                     * Effect to use
                     */
@@ -75,11 +43,11 @@
                 <header>
                     <div class="holder">
                         <div class="img">
-                            <img src="img/P9130028_nashville_small.JPG" alt="" width="205"> <span class="mask">mask</span>
+                            <img class="animated flipInX" src="img/P9130028_nashville_small.JPG" alt="" width="205"> <span class="mask">mask</span>
                         </div>
 
                         <div class="block" style="float:left;width:510px;">
-                            <h1>Sylvain Valienne <span>Lead développeur Web</span></h1>
+                            <h1>Sylvain Valienne <span class="animated fadeInRightBig">Lead développeur Web</span></h1>
 
                             <span>
                                 Perfectionniste dans mon travail, je suis également en veille permanente sur les nouvelles technologies Web. Mes expériences dans le développement Web et dans la gestion de projets font de moi quelqu'un de polyvalent.
@@ -88,11 +56,11 @@
 
                         <div class="slide-block" >
                             <p class="excerpt" style="float:right;">
-                                25 ans<br />
-                                Nationalité française<br />
-                                Permis B<br />
-                                Pontault-Combault (77)<br />
-                                06 34 99 25 76<br />
+                                25 ans<br>
+                                Nationalité française<br>
+                                Permis B<br>
+                                Pontault-Combault (77)<br>
+                                06 34 99 25 76<br>
                                 <a href="mailto:s.valienne@yahoo.fr">s.valienne@yahoo.fr</a>
                             </p>
                         </div>
@@ -131,11 +99,12 @@
                                     </div>
 
                                     <div class="description">
-                                        <h3>Développeur Web, <span>Paris (75002)</span></h3>
+                                        <h3>Développeur Web (front/back-end), <span>Paris (75002)</span></h3>
                                         <p>
-                                            Développement d'outils Web internes<br />
-                                            Création de thème Bootstrap 3<br />
-                                            Intégration de thème Bootstrap 3 sur des outils existants<br />
+                                            Création d'une API REST en PHP (authentification, documentation, tests unitaires, statistiques...)<br>
+                                            Création d'un outil de Ranking d'applications iOS et Android<br>
+                                            Création de thème Bootstrap 3 et intégration sur des outils existants<br>
+                                            Ergonomie des interfaces Web<br>
                                         </p>
                                     </div>
                                 </li>
@@ -151,13 +120,13 @@
                                     <div class="description">
                                         <h3>Chef de projets Web et responsable d'applications, <span>Sarcelles (95)</span></h3>
                                         <p>
-                                            Pilotage de TMA avec SSII<br />
-                                            Rédaction de cahier des charges et de recette<br />
-                                            Planification<br />
-                                            Validation des spécifications<br />
-                                            Recettes technique et utilisateur<br />
-                                            Pilotage de mises en production<br />
-                                            Formations auprès des utilisateurs<br />
+                                            Pilotage de TMA avec SSII<br>
+                                            Rédaction de cahier des charges et de recette<br>
+                                            Planification<br>
+                                            Validation des spécifications<br>
+                                            Recettes technique et utilisateur<br>
+                                            Pilotage de mises en production<br>
+                                            Formations auprès des utilisateurs<br>
                                             Traitement des tickets utilisateurs (évolutions ou corrections applicatives)
                                         </p>
                                     </div>
@@ -172,14 +141,14 @@
                                     </div>
 
                                     <div class="description">
-                                        <h3>Développeur Web, <span>Paris (75003)</span></h3>
+                                        <h3>Développeur Web (front/back-end), <span>Paris (75003)</span></h3>
 
                                         <p>
-                                            Développement d'un ERP Web <i>from scratch</i><br />
-                                            Analyse et critique de l'existant<br />
-                                            Conduite et développement<br />
-                                            Maintien et amélioration du projet<br />
-                                            Assistance auprès des utilisateurs<br />
+                                            Développement d'un ERP Web <i>from scratch</i><br>
+                                            Analyse et critique de l'existant<br>
+                                            Conduite et développement<br>
+                                            Maintien et amélioration du projet<br>
+                                            Assistance auprès des utilisateurs<br>
                                             Maintenance de serveurs Windows
                                         </p>
                                     </div>
@@ -261,6 +230,16 @@
 
                                         <div class="description">
                                             jQuery, Bootstrap, CodeIgniter
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="company">
+                                            <strong>Outils</strong>
+                                        </div>
+
+                                        <div class="description">
+                                            NodeJS, Bower, Gulp
                                         </div>
                                     </li>
 
