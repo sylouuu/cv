@@ -4,335 +4,251 @@
         <meta charset="utf-8" />
         <meta name="robots" content="noindex, nofollow" />
 
-        <title>Sylvain Valienne - Lead développeur Web</title>
+        <title>Sylvain Valienne - Lead Web Developer</title>
 
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="stylesheet" href="css/css3-progress-bar.css" />
-        <link rel="stylesheet" href="css/animate.min.css" />
-
-        <script src="js/jquery.min.js"></script>
-        <script>
-            $(function() {
-                /**
-                * Social hover
-                */
-                $('.social a').on('mouseover', function() {
-                    /**
-                    * Effect to use
-                    */
-                    var effect = 'pulse';
-
-                    /**
-                    * Animating
-                    */
-                    $(this)
-                        .addClass('animated '+ effect)
-                        .on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-                            /**
-                            * Animation ended
-                            */
-                            $(this).removeClass('animated '+ effect);
-                        });
-                });
-            });
-        </script>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
     </head>
     <body>
-        <div class="wrapper">
-            <div class="w1">
-                <header>
-                    <div class="holder">
-                        <div class="img">
-                            <img class="animated flipInX" src="img/P9130028_nashville_small.JPG" alt="" width="205"> <span class="mask">mask</span>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="photo-header" class="text-center">
+                        <div id="photo">
+                            <img src="https://avatars1.githubusercontent.com/u/2300259?s=460" alt="avatar">
                         </div>
-
-                        <div class="block" style="float:left;width:510px;">
-                            <h1>Sylvain Valienne <span class="animated fadeInRightBig">Lead développeur Web</span></h1>
-
-                            <span>
-                                Perfectionniste dans mon travail, je suis également en veille permanente sur les nouvelles technologies Web. Mes expériences dans le développement Web et dans la gestion de projets font de moi quelqu'un de polyvalent.
-                            </span>
-                        </div>
-
-                        <div class="slide-block" >
-                            <p class="excerpt" style="float:right;">
-                                25 ans<br>
-                                Nationalité française<br>
-                                Permis B<br>
-                                Pontault-Combault (77)<br>
-                                06 34 99 25 76<br>
-                                <a href="mailto:s.valienne@yahoo.fr">s.valienne@yahoo.fr</a>
-                            </p>
-                        </div>
-
-                        <div style="padding-left:265px;">
-                            <ul class="social">
-                                <li>
-                                    <a class="kerem" href="http://chez-syl.fr" rel="nofollow" target="_blank">chez-syl.fr</a>
-                                </li>
-                                <li>
-                                    <a class="github" href="http://github.com/sylouuu" rel= "nofollow" target="_blank">@sylouuu</a>
-                                </li>
-                                <li>
-                                    <a class="twitter" href="https://twitter.com/sylwebdev" rel= "nofollow" target="_blank">@sylwebdev</a>
-                                </li>
-                            </ul>
+                        <div id="text-header">
+                            <h1>Sylvain Valienne<sup>25 ans</sup><br><span>Lead Web Developer</span></h1>
                         </div>
                     </div>
-                    <div style="padding-left:260px;">
+                </div>
+            </div>
 
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-7">
+                    <!-- A propos -->
+                    <div class="box">
+                    <h2>à propos</h2>
+                    <p>Perfectionniste dans mon travail, je suis également en veille permanente sur les nouvelles technologies Web. Mes expériences dans le développement Web et dans la gestion de projets font de moi quelqu'un de polyvalent.</p>
                     </div>
-                </header>
 
-                <div id="main">
-                    <article>
-                        <div class="section-holder">
-                            <h2 class="exper">Expériences</h2>
-
-                            <ul class="content-list">
-                                <li>
-                                    <div class="company">
-                                        <strong>
-                                            <a href="http://www.ancv.fr" rel="nofollow" target="_blank">APPTURBO</a>
-                                        </strong>
-                                        <span>09/2013 - Aujourd'hui</span>
-                                    </div>
-
-                                    <div class="description">
-                                        <h3>Développeur Web (front/back-end), <span>Paris (75002)</span></h3>
-                                        <p>
-                                            Mise en place et maintien d'un <i>task-runner</i> (<a href="http://gulpjs.com/" target="_blank">GulpJS</a>) sur les nouveaux projets<br>
-                                            Création de PDF via PHP et prise de <i>screenshots</i> avec <a href="http://casperjs.org/" target="_blank">CasperJS</a><br>
-                                            Création d'une API REST en PHP (authentification, documentation, tests unitaires, statistiques...)<br>
-                                            Création d'un outil de Ranking d'applications iOS et Android<br>
-                                            Création de thème Bootstrap 3 et intégration sur des outils existants<br>
-                                            Ergonomie des interfaces Web<br>
-                                        </p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="company">
-                                        <strong>
-                                            <a href="http://www.ancv.fr" rel="nofollow" target="_blank">ANCV</a>
-                                        </strong>
-                                        <span>09/2011 - 13/09/2013</span>
-                                    </div>
-
-                                    <div class="description">
-                                        <h3>Chef de projets Web et responsable d'applications, <span>Sarcelles (95)</span></h3>
-                                        <p>
-                                            Pilotage de TMA avec SSII<br>
-                                            Rédaction de cahier des charges et de recette<br>
-                                            Planification<br>
-                                            Validation des spécifications<br>
-                                            Recettes technique et utilisateur<br>
-                                            Pilotage de mises en production<br>
-                                            Formations auprès des utilisateurs<br>
-                                            Traitement des tickets utilisateurs (évolutions ou corrections applicatives)
-                                        </p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="company">
-                                        <strong>
-                                            <a href="http://www.capeb.fr" rel="nofollow" target="_blank">CAPEB</a>
-                                        </strong>
-                                        <span>08/2008 - 08/2011</span>
-                                    </div>
-
-                                    <div class="description">
-                                        <h3>Développeur Web (front/back-end), <span>Paris (75003)</span></h3>
-
-                                        <p>
-                                            Développement d'un ERP Web <i>from scratch</i><br>
-                                            Analyse et critique de l'existant<br>
-                                            Conduite et développement<br>
-                                            Maintien et amélioration du projet<br>
-                                            Assistance auprès des utilisateurs<br>
-                                            Maintenance de serveurs Windows
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </article>
-
-                    <article>
-                        <div class="section-holder">
-                            <h2 class="competences">Compétences</h2>
-
-                            <div class="text-holder">
-                                <ul class="content-list">
-                                    <li>
-                                        <div class="company">
-                                            <strong>HTML5</strong>
-                                        </div>
-
-                                        <div class="description">
-                                            <div class="bar_mortice rounded_tiny mortice_tiny blue_mortice">
-                                                <div class="progress rounded_tiny progress_tiny blue" style="width: 100%;"></div>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="company">
-                                            <strong>CSS3/LESS</strong>
-                                        </div>
-
-                                        <div class="description">
-                                            <div class="bar_mortice rounded_tiny mortice_tiny blue_mortice">
-                                                <div class="progress rounded_tiny progress_tiny blue" style="width: 90%;"></div>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="company">
-                                            <strong>Javascript</strong>
-                                        </div>
-
-                                        <div class="description">
-                                            <div class="bar_mortice rounded_tiny mortice_tiny blue_mortice">
-                                                <div class="progress rounded_tiny progress_tiny blue" style="width: 100%;"></div>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="company">
-                                            <strong>PHP5 Objet</strong>
-                                        </div>
-
-                                        <div class="description">
-                                            <div class="bar_mortice rounded_tiny mortice_tiny blue_mortice">
-                                                <div class="progress rounded_tiny progress_tiny blue" style="width: 100%;"></div>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="company">
-                                            <strong>SQL</strong>
-                                        </div>
-
-                                        <div class="description">
-                                            <div class="bar_mortice rounded_tiny mortice_tiny blue_mortice">
-                                                <div class="progress rounded_tiny progress_tiny blue" style="width: 90%;"></div>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="company">
-                                            <strong>Frameworks</strong>
-                                        </div>
-
-                                        <div class="description">
-                                            jQuery, Bootstrap, CodeIgniter
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="company">
-                                            <strong>Outils</strong>
-                                        </div>
-
-                                        <div class="description">
-                                            NodeJS, Bower, GulpJS, Composer
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="company">
-                                            <strong>API</strong>
-                                        </div>
-
-                                        <div class="description">
-                                            Google Maps, Facebook, OpenID (Google, Yahoo!...), Twitter, Itunes, GitHub
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="company">
-                                            <strong>Versioning</strong>
-                                        </div>
-
-                                        <div class="description">
-                                            Git (GitHub, Bitbucket)
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="company">
-                                            <strong>OS</strong>
-                                        </div>
-
-                                        <div class="description">
-                                            Windows, Mac OS X, Linux (Ubuntu)
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="company">
-                                            <strong>Langue</strong>
-                                        </div>
-
-                                        <div class="description">
-                                            Anglais technique
-                                        </div>
-                                    </li>
-                                </ul>
+                    <!-- Expériences -->
+                    <div class="box">
+                        <h2>expériences</h2>
+                        <div class="job clearfix">
+                            <div class="col-xs-3">
+                                <div class="where">APPTURBO</div>
+                                <div class="year">09/2013 - Aujourd'hui</div>
+                            </div>
+                            <div class="col-xs-9">
+                                <div class="profession">Développeur Web (front/back-end)</div>
+                                <div class="description">
+                                    <ul class="list-unstyled">
+                                        <li>Mise en place et maintien d'un task-runner (GulpJS) sur les nouveaux projets</li>
+                                        <li>Création de PDF via PHP et prise de screenshots avec CasperJS</li>
+                                        <li>Création d'une API REST en PHP (authentification, documentation, tests unitaires, statistiques...)</li>
+                                        <li>Création d'un outil de Ranking d'applications iOS et Android</li>
+                                        <li>Création de thème Bootstrap 3 et intégration sur des outils existants</li>
+                                        <li>Ergonomie des interfaces Web</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </article>
 
-                    <article>
-                        <div class="section-holder">
-                            <h2 class="diplomes">Diplômes</h2>
-
-                            <ul class="content-list">
-                                <li>
-                                    <div class="company">
-                                        <strong>Titre Niveau I</strong>
-                                        <span><a href="http://www.inspi.fr/" rel="nofollow" target="_blank">IPI (Groupe IGS)</a></span>
-                                    </div>
-
-                                    <div class="description">
-                                        <h3>&laquo; Chef de projet Ingénierie Logiciels &raquo;, <span>Paris (75010)</span></h3>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="company">
-                                        <strong>Titre Niveau II</strong>
-                                        <span><a href="http://www.inspi.fr/" rel="nofollow" target="_blank">IPI (Groupe IGS)</a></span>
-                                    </div>
-
-                                    <div class="description">
-                                        <h3>&laquo; Administrateur systèmes, réseaux et bases de données &raquo;, <span>Paris (75010)</span></h3>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="company">
-                                        <strong>BTS</strong>
-                                        <span><a href="http://www.cerfal-apprentissage.fr/" rel="nofollow" target="_blank">CERFAL</a></span>
-                                    </div>
-
-                                    <div class="description">
-                                        <h3>&laquo; Informatique de Gestion, option Développement &raquo;, <span>Paris (75014)</span></h3>
-                                    </div>
-                                </li>
-                            </ul>
+                        <div class="job clearfix">
+                            <div class="col-xs-3">
+                                <div class="where">ANCV</div>
+                                <div class="year">09/2011 - 09/2013</div>
+                            </div>
+                            <div class="col-xs-9">
+                                <div class="profession">Chef de projets Web et responsable d'applications</div>
+                                <div class="description">
+                                    <ul class="list-unstyled">
+                                        <li>Pilotage de TMA avec SSII</li>
+                                        <li>Rédaction de cahier des charges et de recette</li>
+                                        <li>Planification de tests recette, preprod, prod</li>
+                                        <li>Validation de spécifications</li>
+                                        <li>Recettes technique et utilisateur</li>
+                                        <li>Pilotage de mises en production</li>
+                                        <li>Formations auprès des utilisateurs</li>
+                                        <li>Traitement des tickets utilisateurs (évolutions ou corrections applicatives)</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                    </article>
+
+                        <div class="job clearfix">
+                            <div class="col-xs-3">
+                                <div class="where">CAPEB</div>
+                                <div class="year">08/2008 - 08/2011</div>
+                            </div>
+                            <div class="col-xs-9">
+                                <div class="profession">Développeur Web (front/back-end)</div>
+                                <div class="description">
+                                    <ul class="list-unstyled">
+                                        <li>Développement d'un ERP Web <i>from scratch</i></li>
+                                        <li>Analyse et critique de l'existant</li>
+                                        <li>Conduite et développement</li>
+                                        <li>Maintien, documentation et amélioration du projet</li>
+                                        <li>Assistance auprès des utilisateurs</li>
+                                        <li>Maintenance de serveurs Windows</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Diplômes -->
+                    <div class="box">
+                        <h2>études supérieures</h2>
+                        <ul id="education" class="clearfix">
+                            <li>
+                                <div class="year pull-left">IPI (Groupe IGS)</div>
+                                <div class="description pull-right">
+                                    <h3>Titre Niveau I</h3>
+                                    <p>« <b>Chef de projet Ingénierie Logiciels</b> », Paris (75010)</p>
+                                </div>
+                                <div class="description pull-right">
+                                    <h3>Titre Niveau II</h3>
+                                    <p>« <b>Administrateur systèmes, réseaux et bases de données</b> », Paris (75010)</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="year pull-left">CERFAL</div>
+                                <div class="description pull-right">
+                                    <h3>BTS</h3>
+                                    <p>« <b>Informatique de Gestion, option Développement</b> », Paris (75014)</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Langues -->
+                    <div class="box">
+                        <h2>langues</h2>
+                        <div id="language-skills">
+                            <div class="skill">Français <div class="icons pull-right"><div style="width: 100%;" class="icons-red"></div></div></div>
+                            <div class="skill">Anglais <div class="icons pull-right"><div style="width: 60%;" class="icons-red"></div></div></div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <footer></footer>
+                <div class="col-xs-12 col-sm-5">
+
+                    <!-- Contact -->
+                    <div class="box clearfix">
+                        <h2>Contact</h2>
+                        <div class="contact-item">
+                            <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+                            <div class="title only pull-right">06 34 99 25 76</div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+                            <div class="title only pull-right">
+                                <a href="mailto:s.valienne@yahoo.fr" target="_blank">s.valienne@yahoo.fr</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon pull-left text-center"><span class="fa fa-home fa-fw"></span></div>
+                            <div class="title pull-right">Blog</div>
+                            <div class="description pull-right">
+                                <a href="http://chez-syl.fr/" target="_blank">http://chez-syl.fr/</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
+                            <div class="title pull-right">GitHub</div>
+                            <div class="description pull-right">
+                                <a href="https://github.com/sylouuu" target="_blank">https://github.com/sylouuu</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
+                            <div class="title pull-right">Twitter</div>
+                            <div class="description pull-right">
+                                <a href="https://twitter.com/sylwebdev" target="_blank">https://twitter.com/sylwebdev</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Compétences -->
+                    <div class="box">
+                        <h2>compétences</h2>
+                        <div class="skills">
+                            <div class="item-skills" data-percent="0.95">HTML5</div>
+                            <div class="item-skills" data-percent="0.85">CSS3 / LESS</div>
+                            <div class="item-skills" data-percent="0.95">Javascript</div>
+                            <div class="item-skills" data-percent="0.85">PHP5</div>
+                            <div class="item-skills" data-percent="0.60">SQL</div>
+                            <div class="skills-legend clearfix">
+                                <div class="legend-left legend">Débutant</div>
+                                <div class="legend-left legend"><span>Compétent</span></div>
+                                <div class="legend-right legend"><span>Expert</span></div>
+                                <div class="legend-right legend">Maître</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks -->
+                    <div class="box">
+                        <h2>frameworks / librairies</h2>
+                        <div class="hobby">jQuery</div>
+                        <div class="hobby">Bootstrap</div>
+                        <div class="hobby">CodeIgniter</div>
+                        <div class="hobby">Laravel</div>
+                    </div>
+
+                    <!-- Outils -->
+                    <div class="box">
+                        <h2>outils</h2>
+                        <div class="hobby">NodeJS</div>
+                        <div class="hobby">Composer</div>
+                        <div class="hobby">GulpJS</div>
+                        <div class="hobby">Bower</div>
+                    </div>
+
+                    <!-- API -->
+                    <div class="box">
+                        <h2>api</h2>
+                        <div class="hobby">Google Maps</div>
+                        <div class="hobby">Facebook</div>
+                        <div class="hobby">OpenID</div>
+                        <div class="hobby">Twitter</div>
+                        <div class="hobby">iTunes</div>
+                        <div class="hobby">GitHub</div>
+                    </div>
+
+                    <!-- Versioning -->
+                    <div class="box">
+                        <h2>versioning</h2>
+                        <div class="hobby">Git</div>
+                    </div>
+
+                    <!-- Systèmes -->
+                    <div class="box">
+                        <h2>systèmes</h2>
+                        <div class="hobby">Mac OS X</div>
+                        <div class="hobby">Windows</div>
+                        <div class="hobby">Linux (Ubuntu)</div>
+                    </div>
+
+                </div>
             </div>
+
         </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/script.js"></script>
+
     </body>
 </html>
