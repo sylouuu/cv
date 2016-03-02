@@ -12,8 +12,8 @@
 
     // Importing Gulp dependencies
     // ------------------------------------------------------------------------------------------------------
-    var less        = require('gulp-less'),
-        minifyCSS   = require('gulp-minify-css');
+    var less    = require('gulp-less'),
+        cssnano = require('gulp-cssnano');
 
     // Source paths
     // ------------------------------------------------------------------------------------------------------
@@ -35,7 +35,7 @@
         return gulp
             .src(tasks.less_main.source)
             .pipe(less())
-            .pipe(minifyCSS())
+            .pipe(cssnano())
             .pipe(gulp.dest(tasks.less_main.dest));
 
     });
